@@ -1,0 +1,15 @@
+# Cache et fichiers temporaires GameMaker
+.cache/
+Temp/
+*.tmp
+
+# Dossier de build/compilation
+builds/
+
+# Fichiers de log
+*.log
+
+# GameMaker - données locales utilisateur
+*.lock
+.DS_Store          # macOS
+Thumbs.db          # Windows
