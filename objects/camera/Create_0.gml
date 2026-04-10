@@ -1,2 +1,2 @@
-camera_width =  320;
-camera_height = 240;
+width =  INITIAL_WIN_WIDTH;
+height = INITIAL_WIN_HEIGHT;
