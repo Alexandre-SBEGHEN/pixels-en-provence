@@ -1,4 +1,12 @@
 {
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Objects","order":3,"path":"folders/Objects.yy",},
+    {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
+    {"name":"Player","order":2,"path":"folders/Sprites/Player.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"input","order":1,"path":"objects/input/input.yy",},
+    {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"spr_grid","order":1,"path":"sprites/spr_grid/spr_grid.yy",},
+  ],
 }
