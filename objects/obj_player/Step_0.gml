@@ -13,6 +13,7 @@ switch(state) {
         if (direction_is_held) state = "moving";
         
         //Sprite
+        image_speed = 0;
         
         //Movements
         hsp = 0;
@@ -24,10 +25,33 @@ switch(state) {
         if (!direction_is_held) state = "idle";
             
         //Sprite
-        if (!moving_diagonally) image_angle = move_dir;
+        image_speed = run ? 1.5 : 1;
+        if (!moving_diagonally) switch(move_dir) {
+            //Up
+            case 90:
+                sprite_index = spr_player_move_up;
+                image_xscale = 1;
+                break;
+            //Down
+            case 270:
+                sprite_index = spr_player_move_down;
+                image_xscale = 1;
+                break;
+            //Left
+            case 180:
+                sprite_index = spr_player_move_side;
+                image_xscale = -1;
+                break;
+            //Right
+            case 0:
+                sprite_index = spr_player_move_side;
+                image_xscale = 1;
+                break;
+        }
         
         //Movement
         run = input.run;
+        
         var speed_diagonal = moving_diagonally ? speed_diagonal_multiplier : 1;
         var speed_current = (run ? speed_run : speed_walk) * speed_diagonal;
         hsp = lengthdir_x(speed_current, move_dir);

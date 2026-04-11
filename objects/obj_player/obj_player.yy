@@ -32,9 +32,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_0",
-    "path":"sprites/spr_player_0/spr_player_0.yy",
+    "name":"spr_player_move_down",
+    "path":"sprites/spr_player_move_down/spr_player_move_down.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_player_mask",
+    "path":"sprites/spr_player_mask/spr_player_mask.yy",
+  },
   "visible":true,
 }
