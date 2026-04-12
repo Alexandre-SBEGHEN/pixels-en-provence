@@ -1,3 +1,8 @@
+if (global.game_pause > 0) {
+    image_speed = 0;
+    exit;
+}
+
 //Detect move angle
 var move_h = input.right - input.left;
 var move_v = input.down - input.up;
@@ -50,7 +55,7 @@ switch(state) {
         }
         
         //Movement
-        run = input.run;
+        run = input.b2;
         
         var speed_diagonal = moving_diagonally ? speed_diagonal_multiplier : 1;
         var speed_current = (run ? speed_run : speed_walk) * speed_diagonal;

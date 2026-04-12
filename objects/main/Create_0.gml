@@ -7,3 +7,7 @@ window_center();
 surface_resize(application_surface, INITIAL_WIN_WIDTH, INITIAL_WIN_HEIGHT);
 application_surface_draw_enable(false);
 surface_x = 0;
+
+
+//Pause system
+global.game_pause = 0;

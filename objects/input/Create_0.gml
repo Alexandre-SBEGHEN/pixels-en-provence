@@ -5,4 +5,6 @@ left =  false;
 right = false;
 
 //Actions
-run =   false;
+b1 =    false;
+b1_p =    false;
+b2 =    false;
