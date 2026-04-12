@@ -15,6 +15,7 @@ if (box_scale == 1) {
     if (char_current < chars_in_current_line || line_current < lines_in_current_page - 1) {
         var spd = input.b2 ? TEXTBOX_SPEED_FAST : TEXTBOX_SPEED_NORMAL;
         if (char_timer++ >= spd) {
+            
             if (char_sound != undefined && string_char_at(pages[page_current][line_current], char_current+1) != " ") {
                 audio_stop_sound(char_sound);
                 audio_play_sound(char_sound, 1, 0);

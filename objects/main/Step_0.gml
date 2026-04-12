@@ -4,7 +4,6 @@ surface_resize(application_surface, INITIAL_WIN_WIDTH * scale, INITIAL_WIN_HEIGH
 //display_set_gui_size(window_get_height(), window_get_height());
 display_set_gui_maximize(window_get_width() / INITIAL_WIN_WIDTH, window_get_height() / INITIAL_WIN_HEIGHT, surface_x, 0);
 
-
 if keyboard_check_pressed(ord("T")) dialog_create([
     ["Hello !", "Second line   :o"],
     ["Aaaannd...", "Another page !", "hihi"],
@@ -13,3 +12,14 @@ if keyboard_check_pressed(ord("T")) dialog_create([
     function () {global.game_pause = 3;},
     function () {global.game_pause = 0;}
 );
+
+/*
+if keyboard_check_pressed(ord("T")) dialog_create([
+    ["Lorem ipsum dolor sit amet,", "consectetur adipiscing elit.", "Etiam eget sem dui."],
+    ["Phasellus gravida ligula et", "diam venenatis, porttitor", "lacinia arcu bibendum."],
+    ["Curabitur faucibus semper", "mi quis facilisis."]
+],
+    function () {global.game_pause = 3;},
+    function () {global.game_pause = 0;}
+);
+*/
