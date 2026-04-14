@@ -17,7 +17,7 @@ if (box_scale == 1) {
         if (char_timer++ >= spd) {
             
             if (char_sound != undefined && string_char_at(pages[page_current][line_current], char_current+1) != " ") {
-                audio_stop_sound(char_sound);
+                //audio_stop_sound(char_sound);
                 audio_play_sound(char_sound, 1, 0);
             }
             

@@ -2,8 +2,8 @@
   "$GMSound":"v2",
   "%Name":"snd_textbox_normal",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audiogroup_sfx",
+    "path":"audiogroups/audiogroup_sfx",
   },
   "bitDepth":1,
   "channelFormat":0,
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_textbox_normal.wav",
-  "volume":0.3,
+  "volume":0.2,
 }

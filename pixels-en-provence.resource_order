@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":2,"path":"folders/Fonts.yy",},
-    {"name":"Sounds","order":1,"path":"folders/Sounds.yy",},
     {"name":"Objects","order":5,"path":"folders/Objects.yy",},
     {"name":"Collisions","order":1,"path":"folders/Objects/Collisions.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
@@ -10,6 +9,7 @@
     {"name":"Misc","order":1,"path":"folders/Scripts/Misc.yy",},
     {"name":"Shaders","order":3,"path":"folders/Shaders.yy",},
     {"name":"Better scaling","order":1,"path":"folders/Shaders/Better scaling.yy",},
+    {"name":"Sounds","order":1,"path":"folders/Sounds.yy",},
     {"name":"Collisions","order":3,"path":"folders/Sprites/Collisions.yy",},
     {"name":"Misc","order":5,"path":"folders/Sprites/Misc.yy",},
     {"name":"Player","order":4,"path":"folders/Sprites/Player.yy",},
