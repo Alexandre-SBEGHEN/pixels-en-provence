@@ -25,5 +25,5 @@ Un ancien étudiant de l'IUT d'Aix-Marseille revient sur les lieux de sa jeuness
 ## Equipe
 - CHAIB EDDOUR Kawthar (art)
 - PETIT Noé (dev)
-- SBEGHEN Alexandre (dev, art, musique)
+- SBEGHEN Alexandre (dev, musique)
 - YOUNOUSSA Hachim (art)
