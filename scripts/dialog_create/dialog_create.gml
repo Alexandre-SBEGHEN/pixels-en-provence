@@ -1,3 +1,9 @@
+/**
+ * @description            Create a textbox with a custom dialog.
+ * @param text_mat         The text matrix
+ * @param [event_open]     The script to execute when starting the dialog
+ * @param [event_close]    The script to execute when ending the dialog
+ */
 function dialog_create(text_mat) {
     var cam_x = camera_get_view_x(view_camera[0]);
     var cam_y = camera_get_view_y(view_camera[0]);
@@ -6,8 +12,8 @@ function dialog_create(text_mat) {
         cam_x + camera.width * 0.5,
         cam_y + camera.height * 0.8,
         "GUI",
-        obj_textbox) {
-            
+        obj_textbox
+    ) {
         self.pages = text_mat;
         self.page_number = array_length(text_mat);
         

@@ -1,5 +1,5 @@
 /**
- * Collide with an object
+ * @description Collide with an object
  * @param {Id.TileMapElement OR Asset.GMObject OR Id.Instance} object The instance or object to check.
  */
 function scr_collisions(object) {

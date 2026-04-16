@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"dialog_create",
+  "%Name":"transition_create",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"dialog_create",
+  "name":"transition_create",
   "parent":{
     "name":"Interface",
     "path":"folders/Scripts/Interface.yy",
