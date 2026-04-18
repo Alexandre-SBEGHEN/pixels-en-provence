@@ -35,8 +35,8 @@
     "path":"sprites/spr_player_move_down/spr_player_move_down.yy",
   },
   "spriteMaskId":{
-    "name":"spr_player_mask",
-    "path":"sprites/spr_player_mask/spr_player_mask.yy",
+    "name":"spr_player_hitbox",
+    "path":"sprites/spr_player_hitbox/spr_player_hitbox.yy",
   },
   "visible":true,
 }

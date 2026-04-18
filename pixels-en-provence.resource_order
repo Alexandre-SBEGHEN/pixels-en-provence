@@ -32,7 +32,7 @@
     {"name":"sh_better_scaling_supersampling_3x3","order":6,"path":"shaders/sh_better_scaling_supersampling_3x3/sh_better_scaling_supersampling_3x3.yy",},
     {"name":"sh_better_scaling_supersampling_4x4","order":7,"path":"shaders/sh_better_scaling_supersampling_4x4/sh_better_scaling_supersampling_4x4.yy",},
     {"name":"spr_grid","order":1,"path":"sprites/spr_grid/spr_grid.yy",},
-    {"name":"spr_player_mask","order":1,"path":"sprites/spr_player_mask/spr_player_mask.yy",},
+    {"name":"spr_player_hitbox","order":1,"path":"sprites/spr_player_hitbox/spr_player_hitbox.yy",},
     {"name":"spr_player_move_down","order":3,"path":"sprites/spr_player_move_down/spr_player_move_down.yy",},
     {"name":"spr_player_move_side","order":4,"path":"sprites/spr_player_move_side/spr_player_move_side.yy",},
     {"name":"spr_player_move_up","order":2,"path":"sprites/spr_player_move_up/spr_player_move_up.yy",},

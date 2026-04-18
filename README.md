@@ -27,3 +27,12 @@ Un ancien étudiant de l'IUT d'Aix-Marseille revient sur les lieux de sa jeuness
 - PETIT Noé (dev)
 - SBEGHEN Alexandre (dev, musique)
 - YOUNOUSSA Hachim (art)
+
+## Crédits
+
+Les assets ci-dessous ont été utilisés pour créer le jeu.
+
+- *[Pixel Emulator](https://www.dafont.com/pixel-emulator.font)* (Police), par Pixel Sagas
+- *[Better Scaling](https://marketplace.gamemaker.io/assets/1911/better-scaling)* (Shaders GLSL & Scripts GML), par Mytino
+
+Tout le reste a été conçu par l'équipe.

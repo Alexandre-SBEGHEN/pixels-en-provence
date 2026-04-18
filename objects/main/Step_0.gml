@@ -6,12 +6,17 @@ display_set_gui_maximize(window_get_width() / INITIAL_WIN_WIDTH, window_get_heig
 
 
 
-if keyboard_check_pressed(ord("T")) dialog_create([
+if keyboard_check_pressed(ord("1")) dialog_create([
     ["Hello !", "Second line   :o"],
     ["Aaaannd...", "Another page !", "hihi"],
     ["This one is the last", "I promise :)"]
 ],
-    function () {global.game_pause = 3;},
+    function () {global.game_pause = 3; obj_player.state = "idle";},
     function () {global.game_pause = 0;}
 );
-//*/
+if keyboard_check_pressed(ord("2")) transition_create(
+    TRANSITIONS_TYPES.FADE_TO_BLACK,
+    function () {global.game_pause = 3; obj_player.state = "idle";},
+    undefined,
+    function () {global.game_pause = 0;}
+);

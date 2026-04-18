@@ -8,3 +8,4 @@ ending_time = 15;
 timer = 0;
 
 event_ending = undefined;
+event_destroy = undefined;

@@ -8,7 +8,7 @@
 #macro INTERNAL_RESOLUTION_SCALE            4
 
 //Camera
-#macro CAMERA_FOLLOW_SPEED 0.3
+#macro CAMERA_FOLLOW_SPEED 1
 
 //Textboxes
 #macro TEXTBOX_GROWSPEED    8
@@ -18,7 +18,7 @@
 
 //Transitions
 enum TRANSITIONS_TYPES {
-	FADE_TO_BLACK
+	FADE_TO_BLACK,
 }
 enum TRANSITIONS_PHASES {
 	STARTING,

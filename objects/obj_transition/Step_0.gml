@@ -20,6 +20,9 @@ switch (phase) {
     
     case TRANSITIONS_PHASES.ENDING:
         //Destroy itself
-        if (timer >= ending_time) instance_destroy();
+        if (timer >= ending_time) {
+            if (event_destroy != undefined) script_execute(event_destroy);
+            instance_destroy();
+        }
         break;
 }
